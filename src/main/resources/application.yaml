@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+game:
+  rules:
+    time-to-move: PT3S
+  opponent:
+    host: "ws://localhost"
+    port: 8090
+    ws-path: "/ws/game"
+  reconnect:
+    attempts: 5
+    cooldown: PT30S

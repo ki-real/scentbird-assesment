@@ -1,0 +1,8 @@
+### Create a new game
+POST http://localhost:8080/v1/admin/game/start
+
+### Getting the state of the currently active game
+GET http://localhost:8080/v1/admin/game/state
+
+### Delete the currently active game
+DELETE http://localhost:8080/v1/admin/game
